@@ -198,11 +198,11 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # display total travel time
-    print("\ntotal travel time = ",df['Trip Duration'].sum())
+    print("\nTotal travel time = ",df['Trip Duration'].sum())
 
 
     # display mean travel time
-    print("\nmean travel time = ",df['Trip Duration'].mean())
+    print("\nMean travel time = ",df['Trip Duration'].mean())
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -236,10 +236,10 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-    
+
 def display_raw_data(df):
     """Displays raw data to users."""
-    
+
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')
     view_data = view_data.lower()
     start_loc = 0
@@ -247,8 +247,8 @@ def display_raw_data(df):
         print(df.iloc[start_loc])
         start_loc += 5
         view_display = input("Do you wish to continue?: “)
-        view_data = view_data.lower()                     
-    return 
+        view_data = view_data.lower()
+    return
 
 def main():
     try:
@@ -260,7 +260,7 @@ def main():
                 station_stats(df)
                 trip_duration_stats(df)
                 user_stats(df)
-                display_raw_data(df)   
+                display_raw_data(df)
             else:
                 print("\nNo data available for this period")
 
