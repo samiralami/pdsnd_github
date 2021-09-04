@@ -1,17 +1,17 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+September 4, 2021 and README file.
 
 ### Project Title
-Replace the Project Title
+Project Title pdsnd_github
 
 ### Description
-Describe what your project is about and what it does
+project for Udacity assignment #3
 
 ### Files used
-Include the files used
+bikeshare_2.py
+README.md
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+project is forked from https://github.com/udacity/pdsnd_github
