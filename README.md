@@ -7,11 +7,11 @@ September 4, 2021 and README file.
 Project Title pdsnd_github
 
 ### Description
-project for Udacity assignment #3
+Project for Udacity assignment #3
 
 ### Files used
 bikeshare_2.py
 README.md
 
 ### Credits
-project is forked from https://github.com/udacity/pdsnd_github
+Project is forked from https://github.com/udacity/pdsnd_github
